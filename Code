@@ -6,7 +6,7 @@ int main()
 {
 	int *p,*q,*r;
 	int max,t,n;
-	cout<<"Enter Size"<<endl;
+	cout<<"Enter Size of elements"<<endl;
 	cin>>n;
 	p=(int *)malloc(n*sizeof(int));
 	for(int i=0;i<n;i++)
